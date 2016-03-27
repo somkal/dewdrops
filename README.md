@@ -3,9 +3,8 @@
 
 ## Creator
 
-[Dew Drops](http://sowmyakalyan.com/dewdrops) is created and maintained by **[Sowmya Kalyan](http://sowmyakalyan.com/)**, the paintings and artwork are also the creations of 
+[Dew Drops](http://sowmyakalyan.com/dewdrops) is created and maintained by **[Sowmya Kalyan](http://sowmyakalyan.com/)**. The paintings and artwork are a reflection of the emotions and dreams at different times of the journey of life.
 
-* https://twitter.com/findingkalo
 * https://github.com/somkal
 
 ## Copyright and License
