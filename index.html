@@ -75,30 +75,17 @@
         -->
 
         <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <!-- Set the first background image using inline CSS below. -->
-                <div class="fill text-center" style="background-image:url('http://sowmyakalyan.com/paintings/DSC_0020.JPG'); background-repeat:no-repeat; background-size:contain;">
+        <div id="carousel-inner" class="carousel-inner">
+            <script id="paintingItem" type="text/x-jsrender">
+                <div class="item {{if isDefault}}active{{/if}}">
+                    <div class="fill text-center" style="background-image:url('{{:imgpath}}');">
+                    </div>
+                    <div class="carousel-caption bgSmoke">
+                        <h2>{{:title}}</h2>
+                        <h5>{{:subtitle}} {{:date}}</h5>
+                    </div>
                 </div>
-                <div class="carousel-caption">
-                    <h2>Village Sunset</h2>
-                    <h5>Feb 2016</h5>
-                </div>
-            </div>
-            <div class="item">
-                <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 2</h2>
-                </div>
-            </div>
-            <div class="item">
-                <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 3</h2>
-                </div>
-            </div>
+            </script>
         </div>
 
         <!-- Controls -->
@@ -127,21 +114,25 @@
     </div>
     <!-- /.container -->
 
-    <!-- imgdb -->
-    <script src="js/imgdb.js"></script>
-
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/0.9.74/jsrender.js"></script>
+
+    <!-- imgdb -->
+    <script src="js/imgdb.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Script to Activate the Carousel -->
     <script>
-    imgdb.init();
+    var template = $.templates("#paintingItem");
+    $("#carousel-inner").html(template.render(imgdb));
     $('.carousel').carousel({
         interval: 5000 //changes the speed
+        ,pause: true
     });
+    $('.carousel').carousel('pause');
     </script>
 
 </body>
