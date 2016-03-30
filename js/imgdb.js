@@ -5,11 +5,6 @@ var imgdb = [{
     "subtitle": "Landscape, Oil on Canvas",
     "date": "Feb 2016"
 }, {
-    "imgpath": "http://www.sowmyakalyan.com/paintings/DSC_0011.JPG",
-    "title": "Love is in the rain",
-    "subtitle": "...",
-    "date": "2016"
-}, {
     "imgpath": "http://www.sowmyakalyan.com/paintings/DSC_0014.JPG",
     "title": "Smoke on Fire",
     "subtitle": "...",
@@ -46,27 +41,27 @@ var imgdb = [{
     "date": "2016"
 }, {
     "imgpath": "http://www.sowmyakalyan.com/paintings/DSC_0041.JPG",
-    "title": "For me to you",
+    "title": "From me to you",
     "subtitle": "...",
     "date": "2016"
 }, {
     "imgpath": "http://www.sowmyakalyan.com/paintings/DSC_0044.JPG",
-    "title": "...",
+    "title": "Catch a Fire",
     "subtitle": "...",
     "date": "2016"
 }, {
     "imgpath": "http://www.sowmyakalyan.com/paintings/DSC_0048.JPG",
-    "title": "...",
+    "title": "Eye of a Flower",
     "subtitle": "...",
     "date": "2016"
 }, {
     "imgpath": "http://www.sowmyakalyan.com/paintings/DSC_0049.JPG",
-    "title": "...",
+    "title": "Honey, I'm Home",
     "subtitle": "...",
     "date": "2016"
 }, {
     "imgpath": "http://www.sowmyakalyan.com/paintings/DSC_0050.JPG",
-    "title": "...",
+    "title": "Bridge",
     "subtitle": "...",
     "date": "2016"
 }, {
@@ -162,6 +157,11 @@ var imgdb = [{
 }, {
     "imgpath": "http://www.sowmyakalyan.com/paintings/DSC_0095.JPG",
     "title": "...",
+    "subtitle": "...",
+    "date": "2016"
+}, {
+    "imgpath": "http://www.sowmyakalyan.com/paintings/DSC_0011.JPG",
+    "title": "Love is in the rain",
     "subtitle": "...",
     "date": "2016"
 }, {
