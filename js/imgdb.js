@@ -61,7 +61,7 @@ var imgdb = [{
     "date": "2016"
 }, {
     "imgpath": "http://www.sowmyakalyan.com/paintings/DSC_0050.JPG",
-    "title": "Bridge",
+    "title": "Bridging Heaven and Earth",
     "subtitle": "...",
     "date": "2016"
 }, {
