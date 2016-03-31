@@ -1,5 +1,4 @@
 var imgdb = [{
-    "isDefault": true,
     "imgpath": "http://www.sowmyakalyan.com/paintings/DSC_0001.JPG",
     "title": "Sunset in the Village",
     "subtitle": "Landscape, Oil on Canvas",

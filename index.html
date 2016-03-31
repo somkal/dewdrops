@@ -56,7 +56,7 @@
         <!-- /.container -->
     </nav>
     <!-- Full Page Image Background Carousel Header -->
-    <header id="myCarousel" class="carousel slide">
+    <header id="myCarousel" class="carousel slide carousel-fade">
         <!-- Indicators -->
         <!--
         <ol class="carousel-indicators">
@@ -111,11 +111,14 @@
     <!-- Script to Activate the Carousel -->
     <script>
     var template = $.templates("#paintingItem");
-    $("#carousel-inner").html(template.render(imgdb));
+    rimgdb = imgdb.sort(function(a, b) {
+        return Math.random() - 0.5
+    });
+    rimgdb[0].isDefault = true;
+    $("#carousel-inner").html(template.render(rimgdb));
     $('.carousel').carousel({
         interval: 5000 //changes the speed
     });
-    $('.carousel').carousel('pause');
     </script>
 </body>
 
