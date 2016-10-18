@@ -1,5 +1,5 @@
 # [Dew Drops](http://www.sowmyakalyan.com/old/dewdrops) 
-[Dew Drops](http://sowmyakalyan.com/dewdrops) is the personal portfolio website for displaying personal art work of a self-taught artist. This version of the site is based on bootstrap and a carousel theme.
+[Dew Drops](http://www.sowmyakalyan.com/dewdrops) is the personal portfolio website for displaying personal art work of a self-taught artist. This version of the site is based on bootstrap and a carousel theme.
 
 ## Creator
 
