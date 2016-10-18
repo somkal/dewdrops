@@ -1,9 +1,9 @@
-# [Dew Drops](http://sowmyakalyan.com/dewdrops) 
+# [Dew Drops](http://www.sowmyakalyan.com/old/dewdrops) 
 [Dew Drops](http://sowmyakalyan.com/dewdrops) is the personal portfolio website for displaying personal art work of a self-taught artist. This version of the site is based on bootstrap and a carousel theme.
 
 ## Creator
 
-[Dew Drops](http://sowmyakalyan.com/dewdrops) is created and maintained by **[Sowmya Kalyan](http://sowmyakalyan.com/)**. The paintings and artwork are a reflection of the emotions and dreams at different times of the journey of life.
+[Dew Drops](http://www.sowmyakalyan.com/old/dewdrops) is created and maintained by **[Sowmya Kalyan](http://www.sowmyakalyan.com/)**. The paintings and artwork are a reflection of the emotions and dreams at different times of the journey of life.
 
 * https://github.com/somkal
 
